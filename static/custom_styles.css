@@ -1,0 +1,18 @@
+.login-form {
+    padding: 40px; /* Increase padding */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Add a subtle shadow */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    margin-bottom: 15px;  /* More space between fields */
+    color: #888;  /* Lighter placeholder text */
+}
+
+.login-form .btn-primary {
+    width: 100%;  /* Option: Full-width button*/ 
+}
+
+.login-form .btn-primary:hover {
+    background-color: #0056b3; /* Slightly darker on hover */
+}
